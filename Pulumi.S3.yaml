@@ -1,0 +1,5 @@
+config:
+  aws:region: us-east-1
+  infrastructure:type: S3
+  s3:bucketName: poc-test2-aaaa
+  s3:bucketNames: poc-test-bucket-2026,poc-test2-aaaa
