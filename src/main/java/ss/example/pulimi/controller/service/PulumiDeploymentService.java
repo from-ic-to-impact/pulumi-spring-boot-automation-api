@@ -16,7 +16,7 @@ import com.pulumi.automation.ConfigValue;
 @Service
 public class PulumiDeploymentService {
 
-    private static final String PROJECT_DIR = "/Users/25647/pulumi";
+    private static final String PROJECT_DIR = "/Users/ictoimpact/pulumi";
 
     private WorkspaceStack getStack(String stackName) throws Exception {
         return LocalWorkspace.createOrSelectStack(
